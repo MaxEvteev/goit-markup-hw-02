@@ -1,0 +1,145 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* чорный текст логотипа #000000 */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --subtitle-text-color: #757575;
+  --accent-color: #030303;
+  --body-backgrownd: #ffffff;
+}
+
+body {
+  background-color: var(--body-backgrownd);
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo > .accent {
+  color: #2196f3;
+}
+
+.site-nav a {
+  color: #212121;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts-nav a {
+  color: #757575;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.contacts-nav .link:hover {
+  color: #2196f3;
+}
+
+.site-nav .link:hover .site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+.portfolio-card-title {
+  color: #212121;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-card-subtitle {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+.portfolio a {
+  text-decoration: none;
+}
+.portfolio a:hover,
+.portfolio a:focus {
+  text-decoration: underline;
+}
+
+/* Button */
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button-primary {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+
+.page-footer {
+  background-color: #2f303a;
+}
+.page-footer > .logo {
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.page-footer > .text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.page-footer > .contacts-nav {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
