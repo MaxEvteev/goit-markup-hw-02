@@ -8,14 +8,17 @@
   --primary-text-color: #212121;
   --title-text-color: #212121;
   --subtitle-text-color: #757575;
-  --accent-color: #030303;
+  --accent-color: #2196f3;
   --body-backgrownd: #ffffff;
+  --footer-backgrownd: #2f303a;
+  --footer-text-color: #ffffff;
+  --button-backgrownd: #f5f4fa;
 }
 
 body {
   background-color: var(--body-backgrownd);
-  color: #212121;
-  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  font-family: "Roboto", "Nunito" sans-serif;
 }
 
 .logo {
@@ -28,11 +31,11 @@ body {
 }
 
 .logo > .accent {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -41,7 +44,7 @@ body {
   text-decoration: none;
 }
 .contacts-nav a {
-  color: #757575;
+  color: var(--subtitle-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -54,20 +57,20 @@ ul {
   list-style: none;
 }
 
-.contacts-nav .link:hover {
-  color: #2196f3;
+.contacts-nav a:hover {
+  color: var(--accent-color);
 }
 
-.site-nav .link:hover .site-nav .link:focus {
-  color: #2196f3;
+.site-nav a:hover .site-nav a:focus {
+  color: var(--accent-color);
 }
 
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .portfolio-card-title {
-  color: #212121;
+  color: var(--title-text-color);
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
@@ -75,7 +78,7 @@ ul {
   letter-spacing: 0.06em;
 }
 .portfolio-card-subtitle {
-  color: #757575;
+  color: var(--subtitle-text-color);
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.9;
@@ -91,8 +94,8 @@ ul {
 
 /* Button */
 .button {
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  background-color: var(--button-backgrownd);
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -102,12 +105,12 @@ ul {
 .button:hover,
 .button:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .button-primary {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -116,10 +119,10 @@ ul {
 }
 
 .page-footer {
-  background-color: #2f303a;
+  background-color: var(--footer-backgrownd);
 }
 .page-footer > .logo {
-  color: #ffffff;
+  color: var(--footer-text-color);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -127,7 +130,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .page-footer > .text {
-  color: #ffffff;
+  color: var(--footer-text-color);
   font-family: Roboto;
   font-style: normal;
   font-size: 14px;
