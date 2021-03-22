@@ -77,6 +77,16 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
+.properties-section-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.06em;
+}
+
 .portfolio-card-subtitle {
   color: var(--subtitle-text-color);
   font-family: Roboto;
@@ -84,6 +94,15 @@ ul {
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
+
+.properties-section-text {
+  color: var(--subtitle-text-color);
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 .portfolio a {
   text-decoration: none;
 }
@@ -112,9 +131,9 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
   font-family: Roboto;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.87;
   cursor: pointer;
 }
 
@@ -144,5 +163,53 @@ ul {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.hero-section {
+  background-color: var(--footer-backgrownd);
+}
+
+.hero-hover {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.info-hover {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.06em;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.name-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  color: var(--subtitle-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
